@@ -778,7 +778,8 @@ footer {
 .description {
 	margin-bottom: 0;
 }
-/* Modal Window */
+/* -=  M O D A L  =- */
+/* -=  W I N D O W  =- */
 .backdrop {
 	position: fixed;
 	top: 0;
@@ -802,12 +803,30 @@ footer {
 	padding-top: 40px;
 	padding-bottom: 40px;
 }
-.modal-cross {
-	width: 11px;
-	height: 11px;
+.modal-close-test {
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
+}
+.modal-cross {
+	fill: #000000;
+}
+/* tut */
+button svg {
+	position: absolute;
+	transform: translate(-50%, -50%);
+	/*transform: translateY(50%);*/
+	/*display: block;*/
+}
+.modal-close-button:hover .modal-cross {
+	fill: var(--accent-color);
+	cursor: pointer;
+}
+.modal-close-button:hover {
+	cursor: pointer;
+}
+.modal-header button:focus .modal-cross {
+	fill: var(--accent-color);
 }
 .modal-close-button {
 	position: absolute;
@@ -816,7 +835,7 @@ footer {
 	width: 30px;
 	height: 30px;
 	border-radius: 50%;
-	border: 1px solid gray;
+	border: 1px solid rgba(0, 0, 0, 0.1);
 	background-color: white;
 	display: block;
 }
@@ -866,7 +885,6 @@ textarea::placeholder {
 	font-size: 12px;
 	line-height: 1.66;
 	letter-spacing: 0.01em;
-
 	color: rgba(117, 117, 117, 0.5);
 }
 .modal-footer {
@@ -881,12 +899,9 @@ textarea::placeholder {
 	font-weight: normal;
 	font-size: 14px;
 	line-height: 1.71;
-
 	letter-spacing: 0.03em;
-
 	color: #757575;
 }
-
 .input-forms label {
 	/*margin-bottom: 4px;*/
 	font-family: Roboto;
@@ -894,9 +909,7 @@ textarea::placeholder {
 	font-weight: normal;
 	font-size: 12px;
 	line-height: 1.66;
-
 	letter-spacing: 0.01em;
-
 	color: #757575;
 }
 .form-field {
