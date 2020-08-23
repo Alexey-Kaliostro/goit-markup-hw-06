@@ -820,7 +820,7 @@ footer {
 .modal-cross {
 	fill: #000000;
 }
-/* tut */
+
 button svg {
 	position: absolute;
 	transform: translate(-50%, -50%);
@@ -874,6 +874,20 @@ button svg {
 	padding-top: 11px;
 	padding-bottom: 11px;
 	padding-left: 12px;
+}
+/* tut */
+.input-field {
+	position: relative;
+}
+.input-field input {
+	padding-left: 42px;
+}
+.input-icon {
+	display: inline-block;
+	fill: #212121;
+	position: absolute;
+	left: 12px;
+	top: 11px;
 }
 textarea {
 	width: 100%;
