@@ -1,3 +1,11 @@
+/* -=  F O N T S  =-
+font-family: 'Raleway', sans-serif;
+font-family: 'Roboto', sans-serif; */
+
+/* -=  M A I N   A N I M A T I O N  =-
+	transition-duration: 250ms;
+	transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+*/
 :root {
 	--main-bg-color: #ffffff;
 	--sec-bg-color: #f5f4fa;
@@ -18,9 +26,6 @@ html {
 *::after {
 	box-sizing: inherit;
 }
-/* fonts
-font-family: 'Raleway', sans-serif;
-font-family: 'Roboto', sans-serif; */
 
 /*body main bg color and fonts, other main colors and styles */
 body {
@@ -802,6 +807,10 @@ footer {
 	background-color: white;
 	padding-top: 40px;
 	padding-bottom: 40px;
+}
+.modal-header svg {
+	transition-duration: 250ms;
+	transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .modal-close-test {
 	display: block;
