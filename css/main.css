@@ -875,13 +875,24 @@ button svg {
 	padding-bottom: 11px;
 	padding-left: 12px;
 }
+/*tut*/
 .input-field:focus-within input {
-	border: 1px solid red;
+	border: 1px solid #2196f3;
+	outline: none;
 }
 .input-field:focus-within svg {
-	fill: red;
+	fill: #2196f3;
 }
-/* tut */
+.form-field:focus-within textarea {
+	border: 1px solid #2196f3;
+	outline: none;
+}
+.form-field .input-field input,
+.form-field .input-field .input-icon,
+.form-field textarea {
+	transition-duration: 250ms;
+	transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
 .input-field {
 	position: relative;
 }
