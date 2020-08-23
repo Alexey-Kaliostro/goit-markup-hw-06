@@ -875,6 +875,12 @@ button svg {
 	padding-bottom: 11px;
 	padding-left: 12px;
 }
+.input-field:focus-within input {
+	border: 1px solid red;
+}
+.input-field:focus-within svg {
+	fill: red;
+}
 /* tut */
 .input-field {
 	position: relative;
