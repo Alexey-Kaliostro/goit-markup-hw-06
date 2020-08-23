@@ -932,6 +932,7 @@ textarea::placeholder {
 	margin-left: auto;
 	margin-right: auto;
 	margin-bottom: 30px;
+	position: relative;
 }
 .mfooter-label {
 	font-family: Roboto;
@@ -941,6 +942,7 @@ textarea::placeholder {
 	line-height: 1.71;
 	letter-spacing: 0.03em;
 	color: #757575;
+	padding-left: 36px;
 }
 .input-forms label {
 	/*margin-bottom: 4px;*/
@@ -957,9 +959,36 @@ textarea::placeholder {
 }
 .checkbox {
 	display: inline;
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	appearance: none;
+	position: absolute;
 }
+
 .modal-button {
 	width: 200px;
 	padding: 0;
 	margin-left: 172px;
+}
+.modal-button:hover {
+	cursor: pointer;
+}
+.checkbox-icon {
+	display: inline-block;
+	width: 20px;
+	height: 20px;
+	/*background-color: tomato;*/
+	position: absolute;
+	left: 0;
+	border: 2px solid #212121;
+	border-radius: 2px;
+	pointer-events: none;
+}
+.checkbox:checked + .checkbox-icon {
+	background-color: #2196f3;
+	background-image: url("../images/svg-images/modal-check-icon.svg");
+	background-size: contain;
+	background-origin: border-box;
+	border: 2px solid #2196f3;
+	border-radius: 2px;
 }
