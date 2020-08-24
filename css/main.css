@@ -1034,3 +1034,8 @@ textarea::placeholder {
 	border: 2px solid #2196f3;
 	border-radius: 2px;
 }
+.checkbox-focus:focus ~ .checkbox-icon {
+	/*background-color: blue;*/
+	border-color: #2196f3;
+	/*background-image: url("../images/svg-images/modal-check-icon.svg");*/
+}
