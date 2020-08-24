@@ -863,6 +863,10 @@ button svg {
 	/*transform: translateY(50%);*/
 	/*display: block;*/
 }
+button .modal-cross {
+	position: absolute;
+	transform: translate(-50%, -50%);
+}
 .modal-close-button:hover .modal-cross {
 	fill: var(--accent-color);
 	cursor: pointer;
