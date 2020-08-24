@@ -796,11 +796,11 @@ footer {
 .button-icon {
 	fill: red;
 	position: absolute;
+	top: 0;
+	bottom: 0;
 }
 .footer-right button {
 	position: relative;
-	top: 0;
-	bottom: 0;
 }
 .filters-list button {
 	padding-top: 6px;
