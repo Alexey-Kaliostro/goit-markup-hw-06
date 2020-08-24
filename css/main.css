@@ -796,8 +796,8 @@ footer {
 .button-icon {
 	fill: red;
 	position: absolute;
-	top: 0;
-	bottom: 0;
+	top: 13px;
+	right: 28px;
 }
 .footer-right button {
 	position: relative;
