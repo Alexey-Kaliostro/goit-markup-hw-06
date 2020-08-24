@@ -767,7 +767,7 @@ footer {
 
 .footer-right {
 	display: inline-flex;
-	flex-basis: 570px;
+	/*flex-basis: 570px;*/
 }
 .footer {
 	display: flex;
@@ -804,6 +804,7 @@ footer {
 }
 
 .footer-right button {
+	margin-left: 12px;
 	/*position: relative;*/
 }
 .filters-list button {
