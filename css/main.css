@@ -766,6 +766,7 @@ footer {
 }
 
 .footer-right {
+	display: inline-flex;
 	flex-basis: 570px;
 }
 .footer {
@@ -794,13 +795,15 @@ footer {
 	color: rgba(255, 255, 255, 0.6);
 }
 .button-icon {
-	fill: red;
-	position: absolute;
-	top: 13px;
-	right: 28px;
+	fill: white;
+	vertical-align: middle;
+	/*position: absolute;*/
+	/*top: 13px;
+	right: 28px;*/
 }
+
 .footer-right button {
-	position: relative;
+	/*position: relative;*/
 }
 .filters-list button {
 	padding-top: 6px;
@@ -850,8 +853,8 @@ footer {
 }
 
 button svg {
-	position: absolute;
-	transform: translate(-50%, -50%);
+	/*position: absolute;
+	transform: translate(-50%, -50%);*/
 	/*transform: translateY(50%);*/
 	/*display: block;*/
 }
