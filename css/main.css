@@ -807,6 +807,9 @@ footer {
 	margin-left: 12px;
 	/*position: relative;*/
 }
+.footer-right button:hover {
+	cursor: pointer;
+}
 .filters-list button {
 	padding-top: 6px;
 	padding-bottom: 6px;
