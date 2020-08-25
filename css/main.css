@@ -1017,11 +1017,14 @@ textarea::placeholder {
 }
 .checkbox-icon {
 	display: inline-block;
-	width: 20px;
-	height: 20px;
+	/*width: 20px;
+	height: 20px;*/
+	width: 18px;
+	height: 17px;
 	/*background-color: tomato;*/
 	position: absolute;
 	left: 0;
+	top: 5px;
 	border: 2px solid #212121;
 	border-radius: 2px;
 	pointer-events: none;
