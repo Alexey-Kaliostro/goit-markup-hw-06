@@ -982,7 +982,7 @@ textarea::placeholder {
 	line-height: 1.71;
 	letter-spacing: 0.03em;
 	color: #757575;
-	padding-left: 36px;
+	/*padding-left: 36px;*/
 }
 .input-forms label {
 	/*margin-bottom: 4px;*/
@@ -1022,12 +1022,13 @@ textarea::placeholder {
 	width: 18px;
 	height: 17px;
 	/*background-color: tomato;*/
-	position: absolute;
+	/*position: absolute;*/
 	left: 0;
 	top: 5px;
 	border: 2px solid #212121;
 	border-radius: 2px;
 	pointer-events: none;
+	margin-right: 7px;
 }
 .checkbox:checked + .checkbox-icon {
 	background-color: #2196f3;
@@ -1041,4 +1042,7 @@ textarea::placeholder {
 	/*background-color: blue;*/
 	border-color: #2196f3;
 	/*background-image: url("../images/svg-images/modal-check-icon.svg");*/
+}
+.checkbox:focus ~ .checkbox-icon {
+	border-color: #2196f3;
 }
